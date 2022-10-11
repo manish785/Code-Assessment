@@ -63,13 +63,13 @@ void RightArrayElements(int arr[], int n, int k)
        {
             
            // Printing rightmost kth elements
-           cout << a[n + i - k] << " ";
+           cout << arr[n + i - k] << " ";
        }
        else
        {
             
            // Prints array after 'k' elements
-           cout << (a[i - k]) << " ";
+           cout << (arr[i - k]) << " ";
        }
     }
     cout << endl;
